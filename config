@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/O3conomikkus/TDI_website.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "Jonas_Try"]
+	remote = origin
+	merge = refs/heads/Jonas_Try
+[atomGithub]
+	historySha = 1968035becba27068b2db3160a5ded07c0a39f79
